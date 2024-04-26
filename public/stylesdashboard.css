@@ -1,0 +1,194 @@
+*{
+    font-family: "Kanit", sans-serif;
+}
+.first{
+    display: flex;
+    align-items: center;
+}
+.first p{
+    font-size: 35px;
+}
+.profile img{
+    height: 300px;
+    width: auto;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.profile{
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+}
+.profile .details p{
+    margin: 0;
+    
+}
+.details {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.details p {
+    margin: 0;
+}
+
+.profile {
+    display: inline-block;
+    overflow: hidden;
+    transition: height 0.3s ease;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#profilePicture {
+    width: auto; 
+    height: 40vh;
+    transition: transform 1s ease;
+}
+
+.details {
+    flex: 1;
+    display: inline-block;
+    padding-left: 10px;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.image-container:hover #profilePicture {
+    transform: scale(1.05); 
+}
+
+.image-container .details {
+    display: block;
+    opacity: 1;
+}
+
+.profile:hover {
+    height: auto; 
+}
+
+.label {
+    font-weight: bold; 
+    margin-right: 5px; 
+}
+.flex{
+    display: flex;
+
+}
+.flex1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.carousel {
+    width: 100%;
+    overflow-x: hidden;
+    padding: 30px;
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  .carousel__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+    gap: 10px;
+  }
+  
+  .carousel-item {
+    position: relative;
+    width: 100%;
+    height: 270px;
+    border-radius: 20px;
+    background-color: #95bcd6;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+  }
+  
+  .carousel-item:hover {
+    transform: scale(1.03);
+  }
+  
+  .carousel-item__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+  }
+  
+  th {
+    background-color: rgb(235,235,235);
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: rgb(250,250,250);
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: rgb(245,245,245);
+  }
+  
+  caption {
+    padding: 10px;
+  }
+  .carousel-item__details {
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    color: #000;
+  }
+
+  .carousel-item__details > h1 {
+    margin-top: 30%;
+    color: white;
+    font-size:28px;
+    text-shadow:
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000; 
+  }
+  .carousel-item__details1 > h1 {
+    text-align: center;
+    align-items: center;
+    margin-top: 30%;
+    color: white;
+    font-size:28px;
+    text-shadow:
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000; 
+  }
+  .mainnavi{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .carousel-item__details--title,
+  .carousel-item__details--subtitle {
+    margin-bottom: 5px;
+  }
+  
+  

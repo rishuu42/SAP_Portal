@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="scriptdashboard.js"></script>
+    <link rel="stylesheet" href="stylesdashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="first" style="margin-bottom: 10px;">
+        <img src="./imagesdashboard/logo.png" height="90px">
+        <p>Welcome,  <span id="userName"></span></p>
+    </div>
+    <hr>
+  <div>
+    <div class="flex1">
+      <div>
+        <div class="profile">
+            <div class="image-container">
+                <img id="profilePicture" alt="Profile Picture">
+                <span class="details">
+                    <p><span class="label">Name:</span> <span id="name"></span></p>
+                    <p><span class="label">SAP ID:</span> <span id="sap"></span></p>
+                    <p><span class="label">Enrollment Number:</span> <span id="enroll"></span></p>
+                    <p><span class="label">Program:</span> <span id="program"></span></p>
+                    <p><span class="label">Session:</span> <span id="session"></span></p>
+                    <p><span class="label">Phone Number:</span> <span id="phone"></span></p>
+                    <p><span class="label">E-mail:</span> <span id="email"></span></p>
+                </span>
+            </div>
+        </div>
+        <!-- <div style="margin-left: 10px;">
+          <div class="flex">
+              <div>
+                  <table style="all: initial;">
+                    <tr>      
+                      <th></th>
+                      <th>Amount</th>
+                      <th>INR</th>         
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Net Amount Due</td>
+                      <td><span id="netamountdue">/-</span></td>                
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Security</td>
+                      <td><span id="security"></span>/-</td>
+                    </tr>
+                  </table>
+                    
+              </div>
+          </div>
+      </div> -->
+    </div>
+        <section class="carousel" style="margin: 0; width: 60%">
+          <div class="carousel__container">
+            <div onclick="viewTimetable('userName')" class="carousel-item" style="background-color:#27afd9;">
+              <div class="carousel-item__details">
+                <h1>Time Table</h1>
+              </div>
+            </div>
+            <a class="mainnavi" href="./gradecard"><div class="carousel-item" style="background-color: #bacf50;">
+              <div class="carousel-item__details">
+                <h1>Grade Card</h1>
+              </div>
+            </div></a>
+            <a class="mainnavi" href="./examnotice"><div class="carousel-item" style="background-color: #8580e2;">
+              <div class="carousel-item__details">
+                <h1>Exam Notice</h1>
+              </div>
+            </div></a>
+            <a class="mainnavi" href="./academiccalender"><div class="carousel-item" style="background-color: #f7a253;">
+              <div class="carousel-item__details">
+                <h1>Academic Calender</h1>
+              </div>
+            </div></a>
+            <a class="mainnavi" href="./documents"><div class="carousel-item" style="background-color: #ea4780;">
+              <div class="carousel-item__details">
+                <h1>Documents</h1>
+              </div>
+            </div></a>
+            <div class="carousel-item" style="background-color: #fbbe22;">
+              <div class="carousel-item__details1">
+                <h1>Payment Portal<br> (Under Development) </h1>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        
+    </div> 
+</div>
+</body>
+</html>
