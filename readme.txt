@@ -2,6 +2,8 @@ Hey, This is my Web Technologies Project in which i have tried to revamp the SAP
 
 The Files Details are as follows
 
+server.js - contains the Node.js Code for the whole Web App
+
 "public" Folder
   - index.html - This contains the login page, and the first page which should load when user searches for the Website
   - styleindex.css - contains the css file for index.html
@@ -16,4 +18,24 @@ The Files Details are as follows
               }
   - styledashboard.css - contains the css file for dashboard.html
   - scriptdashboard.js - contains the js file for dashboard.html
-  - 
+  - timetable.html - This contains the HTML code to display the timetable
+  - styletimetable.css - contains the css file for timetable.html
+  - scripttimetable.js - contains the js file for timetable.html
+  - gradecard.html - This contains the HTML code to display the Grade Card
+  - stylegradecard.css - contains the css file for gradecard.html
+  - scriptgradecard.js - contains the js file for gradecard.html
+  - examnotice.html - This contains the HTML code to display the Exam Notice
+  - styleexamnotice.css - contains the css file for examnotice.html
+  - scriptexamnotice.js - contains the js file for examnotice.html
+  - academiccalender.html - This contains the HTML code to display the Academic Calender
+  - styleacademiccalender.css - contains the css file for academiccalender.html
+  - scriptacademiccalender.js - contains the js file for academiccalender.html
+  - documents.html - This contains the HTML code to display the Documents
+  - styledocuments.css - contains the css file for documents.html
+  - scriptdocuments.js - contains the js file for documents.html
+  - app.js - Contains the angular.js Code commonly for the whole web app
+
+"imageslogin" Folder - contains pictures for index.html
+"imagesdashboard" Folder - contains pictures for dashboard.html
+"docs" -  contains documents for documents.html
+"noticepdfs" -  contains documents for examnotice.html and gradecard.html and academiccalender.html and timetable.html
